@@ -11,11 +11,6 @@
 </head>
 <body>
  
-<div id="wrap">
- 
-    <?php $this->view($content); ?>
-     
-</div>
 
 <div id="wrap">
  
@@ -23,9 +18,9 @@
      
     <div class="cart_list">
         <h3>Your shopping cart</h3>
-        
         <div id="cart_content">
-            <?php echo $this->view('cart/cart.php'); ?>
+            <?php $this->load->view('cart/cart.php'); ?>
+           
         </div>
     </div>
 </div>

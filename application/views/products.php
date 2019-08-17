@@ -2,7 +2,7 @@
     <?php foreach($products as $p): ?>
     <li>
         <h3><?php echo $p['name']; ?></h3>
-        <img src="<?php echo base_url();?>assets/img/macbookpro.jpg" alt="" />
+        <img src="<?php echo base_url();?>assets/img/green.jpg" alt="" />
         <small>&euro;<?php echo $p['price']; ?></small>
         <?php echo form_open('cart/add_cart_item'); ?>
             <fieldset>
